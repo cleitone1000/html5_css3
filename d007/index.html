@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem flexível</title>
+    <link rel="stylesheet" href="layouts.css">
+</head>
+<body>
+    <h1>Desafio Imagem Flexível</h1>
+    <picture >
+        <source media="(min-width: 1230px)" srcset="images/pico_parana_1200.png" type="image/png">
+        <source media="(min-width: 770px)" srcset="images/pico_parana_740.png" type="image/png">
+        <source media="(min-width: 330px)" srcset="images/pico_parana_300.png" type="image/png">
+        <img src="images/pico_parana_full.jpg" alt="Imagem do Pico Paraná">
+        <p>Seu navegador não é compatível com a imagem, clique <a href="images/pico_parana_1200.png" rel="get" target="_self">aqui</a> para baixar</p>
+    </picture>
+</body>
+</html>
