@@ -1,0 +1,61 @@
+@charset "utf-8";
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    font-family: idroid;
+    background-color: rgb(139, 185, 139);
+    margin: 0;
+}
+
+header {
+    background: linear-gradient(to bottom, rgb(45, 85,54),rgb(114,201,131));
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+nav > a {
+    background: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-decoration: none;
+
+}
+main {
+    background-color: white;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 0px;
+}
+
+main > h1 {
+    color: rgb(45, 85,54);
+}
+
+main > p {
+    text-align: justify;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background: rgb(45, 85,54);
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+footer > p {
+    margin: 0;
+}
