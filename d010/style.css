@@ -57,25 +57,31 @@ main {
     background-color: white;
     width: 75%;
     margin: auto;
-    border-radius: 10px;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     text-align: center;
     padding: 10px;
     box-shadow: 5px 5px 5px 0px;
 }
 
 main > h1 {
-    color: rgb(45, 85,54);
+    color:var(--cor5);
 }
 
 main > p {
     text-align: justify;
+}
+
+img {
+    width: 100%;
 }
 p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 footer {
-    background: rgb(45, 85,54);
+    background: var(--cor5);
     color: white;
     text-align: center;
     margin: 0;
