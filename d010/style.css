@@ -137,7 +137,17 @@ img {
     max-width: 300px;
 }
 
-
+aside {
+    text-align: justify;
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+}
+aside > ul {
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    columns: 2;
+}
 
 
 
@@ -145,12 +155,17 @@ footer {
     background: var(--cor5);
     color: white;
     text-align: center;
-    margin: 0;
-    height: 30px;
-    padding: 10px;
+    font-size: 0.8em;
+    padding: 5px;
 }
 
-footer > p {
-    margin: 0;
-    text-align: center;
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--cor1);
 }
