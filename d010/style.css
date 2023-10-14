@@ -54,7 +54,8 @@ header > p {
     color: white;
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
-    margin-bottom: 20px;
+    margin: 0px;
+    padding: 20px;
     text-align: center;
 }
 
