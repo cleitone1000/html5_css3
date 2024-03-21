@@ -10,6 +10,7 @@ html, body {
 height: 100vh;
 width: 100vw;
 background-color: black;
+min-width: 400px;
 
 }
 
@@ -43,4 +44,26 @@ iframe#tela {
     width: 270px;
     height: 471px;
 
+}
+
+section#redes-sociais {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    height: 100vh;
+
+}
+
+section#redes-sociais img {
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+    transition: transform .3s, border 1s;
 }
